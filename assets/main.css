@@ -1,0 +1,151 @@
+/* @import
+    'sass/vendors/...'; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  /* 1rem = 10px*/
+}
+
+body {
+  font-size: 1.4rem;
+  /* soit 14px*/
+  font-family: arial;
+  color: white;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1E2337;
+}
+
+.banniere-titre {
+  margin-bottom: 1rem;
+}
+
+.playBox {
+  width: 50vw;
+  height: 600px;
+  box-sizing: border-box;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+@keyframes rouge {
+  0% {
+    left: -40%;
+    top: 200px;
+  }
+  10% {
+    left: 30%;
+    top: 500px;
+  }
+  20% {
+    left: -10%;
+    top: 0px;
+  }
+  30% {
+    left: 40%;
+    top: 300px;
+  }
+  40% {
+    left: -30%;
+    top: 500px;
+  }
+  50% {
+    left: 10%;
+    top: 0px;
+  }
+  60% {
+    left: 40%;
+    top: 400px;
+  }
+  70% {
+    left: -40%;
+    top: 100px;
+  }
+  80% {
+    left: 20%;
+    top: 500px;
+  }
+  90% {
+    left: 0;
+    top: 200px;
+  }
+  100% {
+    left: -20%;
+    top: 0px;
+  }
+}
+@keyframes bleu {
+  0% {
+    left: 40%;
+    top: 500px;
+  }
+  10% {
+    left: -20%;
+    top: 300px;
+  }
+  20% {
+    left: 40%;
+    top: 500px;
+  }
+  30% {
+    left: -10%;
+    top: 100px;
+  }
+  40% {
+    left: 30%;
+    top: 400px;
+  }
+  50% {
+    left: -40%;
+    top: 100px;
+  }
+  60% {
+    left: 0%;
+    top: 500px;
+  }
+  70% {
+    left: 20%;
+    top: 200px;
+  }
+  80% {
+    left: -40%;
+    top: 0px;
+  }
+  90% {
+    left: 10;
+    top: 500px;
+  }
+  100% {
+    left: -30%;
+    top: 300px;
+  }
+}
+.btn {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+}
+
+#btnRouge {
+  background-color: red;
+  animation: rouge 10s infinite;
+}
+
+#btnBleu {
+  background-color: blue;
+  animation: bleu 10s infinite;
+}/*# sourceMappingURL=main.css.map */

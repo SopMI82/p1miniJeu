@@ -1,0 +1,16 @@
+.btn {    
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+
+#btnRouge{
+    background-color: red;
+    animation: rouge 10s infinite;
+}
+
+#btnBleu {
+    background-color: blue;
+    animation: bleu 10s infinite;
+}
